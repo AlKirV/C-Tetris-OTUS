@@ -6,7 +6,26 @@ namespace Tetris
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.SetWindowSize(40, 30);
+            Console.SetBufferSize(40, 30);
+
+            int x1 = 2;
+            int y1 = 3;
+            char c = '*';
+
+            Console.SetCursorPosition(x1, y1);
+            Console.WriteLine(c);
+
+
+
+
+
+
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
